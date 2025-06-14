@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/output.css">
+</head>
+<body class="flex flex-col">
+    <header class=" z-50 fixed w-full bg-white">
+         <div class="mx-10">
+            <div class=" ld:mx-auto relative flex md:max-w-screen flex-col py-4 sm:w-auto sm:flex-row sm:items-center sm:justify-between text-black">
+                <a class="group flex items-center text-2xl font-black" href="#">
+                    <span class="mr-2"><img class="h-12 group-hover:scale-110 transition duration-300" src="/img/logohitam.png" alt="logo" ></span>
+                    <span class="group-hover:text-[#b58b1f] duration-300">Bali Unseen</span>
+                </a>
+                <input class="peer hidden" type="checkbox" id="navbar-open" />
+                <label class="absolute right-0 mt-4 cursor-pointer text-2xl hover:text-[#b58b1f] sm:hidden" for="navbar-open">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zm0 160c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zm448 160c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h384c17.7 0 32 14.3 32 32z" /></svg>
+                </label>
+                <nav class="peer-checked:block hidden pl-2 py-6 sm:block sm:py-0">
+                    <ul class="flex flex-col gap-y-4 sm:flex-row sm:gap-x-8">
+                        <li class=""><a class="hover:text-[#b58b1f]" href="#">Beranda</a></li>
+                        <li class=""><a class="hover:text-[#b58b1f]" href="#">Eksplorasi</a></li>
+                        <li class=""><a class="hover:text-[#b58b1f]" href="#">Tentang </a></li>
+                        <li class=""><a class="hover:text-[#b58b1f]" href="#">Kontak</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="bg-cover bg-center h-screen flex items-center justify-center text-center" style="background-image: url('/img/hero.png');" >
+    <div class="text-white"> 
+        <h1 class="text-5xl  mb-3 md:text-7xl">Bali Unseen</h1>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut maiores inventore iure magni maxime sapiente facilis odit animi facere dolorem.</h3>
+    </div>
+    </section>
+</body>
+</html>
